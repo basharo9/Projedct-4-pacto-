@@ -6,14 +6,23 @@
 
  body{
   font-family:'Balsamiq Sans', cursive;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
  }
 
+img{
+  border-radius:7px ;
+}
 
+.textColor {
+  color: #bebebe;
+}
+.textColorG{
+  color:#79e223;
+}
  /* header ---------------------*/
 header {
 position: sticky;
-top: 4px;
+top: 0px;
 right: 0;
 width: 100%;
 padding: 15px 0px;
@@ -25,20 +34,36 @@ z-index: 2222;
 section{
  position: relative;
  width: 100%;
- height: 100vh;
- background-color: aqua;
+
+ /* background-color: aqua; */
 }
 
 /* pacto section ------------------------ */
 .pacto-section{
-
+  height: 100vh;
   background-image: url(./img/bg1pacto.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: border-box;
-  transform: translatey(-87px);
+  /* transform: translatey(-87px); */
 }
+
+.pacto-bg-div{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3C4858;
+  opacity: 0.5;
+  z-index: 11;
+ 
+}
+
+
 
 .pacto-container{
   position: relative;
@@ -46,10 +71,12 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 333;
 }
 .pacto {
-  width: 80%;
   height: auto;
+  z-index: 555;
+  
 }
 
 
@@ -61,6 +88,29 @@ section{
   align-items: center;
 }
 
+.circle-div{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(242, 245, 245);
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle-div{
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 15px solid #6DC77A;
+  border-bottom: 8px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
+}
+
 /* .play{
   width: 90px;
   height: 90px;
@@ -68,11 +118,88 @@ section{
 
 } */
 
+
+
 .play2{
   font-size: 90px;
   color: rgb(207, 222, 235);
 }
+/* About */
 
+ 
+
+.Responsive{
+  border: 2px solid #d0d1d362;
+  border-radius: 6px;
+  padding: 15px ;
+  /* margin-right: 3px; */
+}
+
+.Watch-Now{
+  display: flex;
+  align-items: center;
+  margin-top:20px ;
+}
+
+.Watch-Now i {
+  font-size: 40px;
+  color:#6DC77A;
+}
+
+.plus {
+  position: relative;
+  max-width:220px ;
+  /* width: 50%; */
+  background-color:#5c5c5c;
+  border-radius: 6px;
+  overflow: hidden;
+  /* object-fit: contain; */
+}
+
+
+ 
+
+  .image {
+    opacity: 1;
+    border-radius: 6px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+ .plus:hover .image {
+    opacity: 0.5;
+  }
+
+  .plus:hover .middle {
+    opacity: 1;
+  }
+
+.middle i {
+  color:#0fd82d;
+  /* font-size: 55px; */
+}
+
+
+
+
+
+
+ 
 
 /* footer -------------------------*/
 footer{
