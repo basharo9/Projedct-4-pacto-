@@ -159,14 +159,14 @@ section{
 
  
 
-  .image {
+.image {
     opacity: 1;
     border-radius: 6px;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
+ }
 
-  .middle {
+ .middle {
     background-color: #fff;
     width: 48px;
     height: 48px;
@@ -179,15 +179,15 @@ section{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
+ }
 
- .plus:hover .image {
+.plus:hover .image {
     opacity: 0.5;
-  }
+}
 
-  .plus:hover .middle {
+.plus:hover .middle {
     opacity: 1;
-  }
+}
 
 .middle i {
   color:#0fd82d;
