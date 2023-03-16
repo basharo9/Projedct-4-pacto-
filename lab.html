@@ -11,81 +11,133 @@
     <!-- bootstrap -->
   <title>Document</title>
   <style>
+   .Our-card-icon{
+    width: 60px;
+    height: 60px;
+    border: 2px solid hsla(0, 2%, 50%, 0.205);
+    border-radius: 5px;
+    margin: 10px;
+    transform: rotate(-30deg);
+    transition: .5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #6DC77A;
+   }
+ 
+   .Our-card{
+    border-radius: 7px;
+    transition: .5s all;
+    padding: 10px;
+   }
 
-  .plus {
-    position: relative;
-    /* width: 50%; */
-    background-color: aqua;
-  }
-    .image {
-      opacity: 1;
-      /* display: block; */
-      /* width: 100%; */
-      /* height: auto; */
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-
-    .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
-
-   .plus:hover .image {
-      opacity: 0.3;
-    }
-
-    .plus:hover .middle {
-      opacity: 1;
-    }
+   .Our-card:hover {
+    box-shadow: 5px 10px 10px #d4cdcd5b;
+   }
+   .Our-card:hover .Our-card-icon {
+    transform: rotate(0);
+    background-color: #6DC77A;
+    border: 0;
+    color: aliceblue;
+   }
 
 
   </style>
 </head>
 <body>
  
-  <div class="container">
-    <div class="row">
-       <div class="col-lg-6">
-            <div class="col-6"> <img src="./img/ab02.jpg" alt="" width="200px"  ></div>
-             <div class="col-6">
-              <div class="row">
-                <div class="col-10"> <img src="./img/ab03.jpg" alt="" width="200px" ></div>
-                <div class="col-10"> <img src="./img/ab04.jpg" alt="" width="150px"></div>
-              </div>
-             </div>
-       </div><!-- c o l (1) -->
-       <div class="col-lg-6">
-        
-       </div> <!-- c o l (2) -->
-    </div><!-- /r o w -->
+    <div class="container">
+       <div class="row gy-4">
+        <!-- col 01 -->
+        <div class="col-lg-4">
+          <div class="card Our-card" style="width: 90%;">
+            <div class="card-body">
+              <div class="Our-card-icon"><i class="bi bi-display-fill"></i></div>
+              <h5 class="card-title mt-5">Fully Responsive</h5>
+              <p class="card-text my-4">It is a long established fact that a reader 
+                will be distracted by the when looking at its layout.
+              </p>
+              <a href="#" class=" mb-3 text-decoration-none text-success "> Read More <i class="bi bi-chevron-right "></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- col /01 -->
+        <!-- col 02 -->
+        <div class="col-lg-4">
+          <div class="card Our-card" style="width: 90%;">
+            <div class="card-body">
+              <div class="Our-card-icon"><i class="bi bi-display-fill"></i></div>
+              <h5 class="card-title mt-5">Fresh Layouts</h5>
+              <p class="card-text my-4">It is a long established fact that a reader 
+                will be distracted by the when looking at its layout.
+              </p>
+              <a href="#" class=" mb-3 text-decoration-none text-success "> Read More <i class="bi bi-chevron-right "></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- col 02 -->
+        <!-- col 03 -->
+        <div class="col-lg-4">
+          <div class="card Our-card" style="width: 90%;">
+            <div class="card-body">
+              <div class="Our-card-icon"><i class="bi bi-reception-4"></i></div>
+              <h5 class="card-title mt-5">Minimalism Feast</h5>
+              <p class="card-text my-4">It is a long established fact that a reader 
+                will be distracted by the when looking at its layout.
+              </p>
+              <a href="#" class=" mb-3 text-decoration-none text-success "> Read More <i class="bi bi-chevron-right "></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- col /03 -->
+         <!-- col 04 -->
+        <div class="col-lg-4">
+          <div class="card Our-card" style="width: 90%;">
+            <div class="card-body">
+              <div class="Our-card-icon"><i class="bi bi-display-fill"></i></div>
+              <h5 class="card-title mt-5">Modern Workflow</h5>
+              <p class="card-text my-4">It is a long established fact that a reader 
+                will be distracted by the when looking at its layout.
+              </p>
+              <a href="#" class=" mb-3 text-decoration-none text-success "> Read More <i class="bi bi-chevron-right "></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- col /04 -->
+        <!-- col 05 -->
+        <div class="col-lg-4">  <div class="card Our-card" style="width: 90%;">
+          <div class="card-body">
+            <div class="Our-card-icon"><i class="bi bi-display-fill"></i></div>
+            <h5 class="card-title mt-5">Unique Features</h5>
+            <p class="card-text my-4">It is a long established fact that a reader 
+              will be distracted by the when looking at its layout.
+            </p>
+            <a href="#" class=" mb-3 text-decoration-none text-success "> Read More <i class="bi bi-chevron-right "></i></a>
+          </div>
+        </div>
+      </div>
+        <!-- col /05 -->
+        <!-- col 06 -->
+        <div class="col-lg-4"> 
+          <div class="card Our-card" style="width: 90%;">
+            <div class="card-body">
+              <div class="Our-card-icon"><i class="bi bi-clock-fill"></i></div>
+              <h5 class="card-title mt-5">Support 24/7</h5>
+              <p class="card-text my-4">It is a long established fact that a reader 
+                will be distracted by the when looking at its layout.
+              </p>
+              <a href="#" class=" mb-3 text-decoration-none text-success "> Read More <i class="bi bi-chevron-right "></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- col /06 -->
+ 
 
-<div class="container m-4">
-   
-  <div class="plus">
-    <img src="./img/ab02.jpg" alt="" width="220px" class="image" >
-    <div class="middle"><i class="bi bi-plus-circle-fill text-success display-4"></i></div>
-  </div>
 
-</div>
+       </div>
 
-<div class="col mb-4"> 
-  <div class="plus">
-    <img src="./img/ab03.jpg" alt="" width="220px" class="image" >
-    <div class="middle"><i class="bi bi-plus-circle-fill text-success display-4"></i></div>
-  </div>
-</div>
-
-
-
-
-</div> 
+    </div>
 
 </body>
 </html>

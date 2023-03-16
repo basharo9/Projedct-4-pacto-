@@ -194,10 +194,42 @@ section{
   /* font-size: 55px; */
 }
 
+/* Our-Features */
+.Our-Features{
+  background-color: #F9FAFC;
+}
 
 
+.Our-card-icon{
+  width: 60px;
+  height: 60px;
+  border: 2px solid hsla(0, 2%, 50%, 0.205);
+  border-radius: 5px;
+  margin: 10px;
+  transform: rotate(-30deg);
+  transition: .5s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #6DC77A;
+ }
 
+ .Our-card{
+  border-radius: 7px;
+  transition: .5s all;
+  padding: 10px;
+ }
 
+ .Our-card:hover {
+  box-shadow: 5px 10px 10px #d4cdcd5b;
+ }
+ .Our-card:hover .Our-card-icon {
+  transform: rotate(0);
+  background-color: #6DC77A;
+  border: 0;
+  color: aliceblue;
+ }
 
  
 
