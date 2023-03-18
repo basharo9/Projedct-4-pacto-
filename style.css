@@ -231,8 +231,17 @@ section{
   color: aliceblue;
  }
 
- 
+.ultimate p {
+color: #bebebe;
+display: flex;
+ margin-top:auto ;
+ margin-bottom: auto;
+}
 
+.ultimate i {
+  font-size: 23px;
+  color: #0fd82d;
+}
 /* footer -------------------------*/
 footer{
   background-color: #3C4858;
