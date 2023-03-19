@@ -9,6 +9,8 @@
   /* background-color: aquamarine; */
  }
 
+ 
+ 
 img{
   border-radius:7px ;
 }
@@ -25,21 +27,26 @@ position: sticky;
 top: 0px;
 right: 0;
 width: 100%;
-padding: 15px 0px;
+padding: 10px 0px;
 z-index: 2222;
 }
 
+.extraMargin{
+  margin-top: 90px;
+  margin-bottom: 60px;
+  
+}
  
 /* main ---------------------- */
 section{
  position: relative;
  width: 100%;
-
+ padding: 60px;
  /* background-color: aqua; */
 }
 
 /* pacto section ------------------------ */
-.pacto-section{
+#pacto-section{
   height: 100vh;
   background-image: url(./img/bg1pacto.jpg);
   background-position: center;
@@ -195,7 +202,7 @@ section{
 }
 
 /* Our-Features */
-.Our-Features{
+#Our-Features{
   background-color: #F9FAFC;
 }
 
@@ -242,6 +249,43 @@ display: flex;
   font-size: 23px;
   color: #0fd82d;
 }
+/* Pricing Plan */
+.price-card-row{
+  border: 1px solid #91a0b457;
+  border-radius: 7px;
+}
+
+.price-card {
+ display: flex;
+ flex-direction: column;
+ align-items:center ;
+}
+
+.price-card img{
+ width: 30%;
+}
+
+.price-card div {
+  width: 70%;
+  border-bottom: 1px solid #5c5c5c2d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.green-card {
+  background-color: #6DC77A;
+  color: #fff;
+  border-radius:25px ;
+}
+
+.green-card div {
+  width: 70%;
+  border-bottom: 1px solid #f1eeee2d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 /* footer -------------------------*/
 footer{
   background-color: #3C4858;
