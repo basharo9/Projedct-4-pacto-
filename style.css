@@ -13,6 +13,7 @@
  
 img{
   border-radius:7px ;
+  /* overflow: hidden; */
 }
 
 .textColor {
@@ -284,6 +285,13 @@ display: flex;
   margin-bottom: 20px;
   text-align: center;
 }
+
+
+/* ---Latest News & Blogs -- */
+#latest-news{
+  background-color:  #F9FAFC;
+}
+
 
 
 /* footer -------------------------*/
